@@ -1,0 +1,11 @@
+<template>
+  <div id="app">
+    <router-view/>
+  </div>
+</template>
+
+<style lang="sass">
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap')
+#app
+  font-family: 'Roboto'
+</style>
