@@ -53,7 +53,7 @@ export default {
     display: flex
     justify-content: space-between
     padding: 0 50px
-    margin-bottom: 20px
+    margin-bottom: 50px
     .app-info
       display: flex
       flex-direction: column

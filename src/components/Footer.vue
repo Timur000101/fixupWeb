@@ -86,10 +86,11 @@ export default {
       display: flex
       align-items: center
       justify-content: space-between
-      width: 170px
+      // width: 170px
       img
         width: 70px
         height: 70px
+        margin-right: 20px
       h2 
         font-size: 35px
         color: #fff
@@ -212,9 +213,11 @@ export default {
     img
       width: 50px!important
       height: 50px!important
-      margin-right: 20px
+      margin-right: 10px!important
     h2
       font-size: 30px!important
+  .android-button
+    margin-right: 0!important
   .social-network
     .instagram
       width: 35px!important
