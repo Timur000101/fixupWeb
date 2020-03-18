@@ -6,7 +6,6 @@
 </template>
 
 <script>
-import Navbar from '../components/Navbar.vue'
 import QuestionBlog from '../components/Qanswers/QuestionBlog.vue'
 export default {
   components: {

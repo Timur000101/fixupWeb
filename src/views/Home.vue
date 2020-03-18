@@ -6,6 +6,7 @@
     <WhyWe2 style="margin-top: 50px;  overflow-x: hidden; overflow-y: hidden;" />
     <WhyWe3 style="background: #F7E5E2" />
     <WhyWe4 />
+    <QuestionBlog />
     <Footer style="background: #F5AEAE;"/>
   </div>
 </template>
@@ -18,10 +19,11 @@ import WhyWe2 from "../components/Home/WhyWe2.vue"
 import WhyWe3 from "../components/Home/WhyWe3.vue"
 import WhyWe4 from "../components/Home/WhyWe4.vue"
 import Footer from "../components/Footer.vue"
+import QuestionBlog from '../components/Qanswers/QuestionBlog.vue'
 export default {
   name: 'Home',
   components: {
-    Navbar, MainPage, WhyWe, WhyWe2, WhyWe3, WhyWe4, Footer
+    Navbar, MainPage, WhyWe, WhyWe2, WhyWe3, WhyWe4, Footer, QuestionBlog
   },
   data: () => ({
     

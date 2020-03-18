@@ -31,6 +31,13 @@
         </ul>
       </div>
     </transition>
+  
+    <div class="social-network">
+      <i class="fab fa-instagram instagram"></i>
+      <i class="fab fa-facebook facebook"></i>
+      <i class="fab fa-telegram telegram"></i>
+    </div>
+
     
   </nav>
 </template>
@@ -66,7 +73,7 @@ export default {
   list-style: none
 body
   font-family: sans-serif
-nav 
+.fixed-menu
   display: flex
   justify-content: space-between
   align-items: center
@@ -96,10 +103,13 @@ ul.menu
     margin-right: 50px
     text-transform: uppercase
     font-weight: bold
+    list-style: none
+    text-decoration: none
     &:last-child
       margin-right: 0
     a
       color: #fff
+      text-decoration: none
     a:before
       content: ''
       width: 0px
@@ -122,6 +132,7 @@ ul.menu
 .nav-container
   position: fixed
   display: flex
+  flex-direction: column
   justify-content: center
   align-items: center
   width: 100%
@@ -147,8 +158,9 @@ ul.menu
   align-items: center
   margin-top: 100%
   li 
-    font-size: 20px
+    font-size: 24px
     font-weight: bold
+    color: #000!important
     margin-top: 30px
 .background
   width: 100%
@@ -165,6 +177,26 @@ ul.menu
   top: 0 
   left: 0 
   z-index: -999
+.social-network
+  display: flex
+  align-items: center
+  justify-content: space-around
+  width: 200px
+  height: 80px
+  display: none
+  z-index: 999
+  .instagram
+    width: 40px
+    height: 40px
+    color: #F15E63
+  .facebook
+    width: 40px
+    height: 40px
+    color: #F15E63
+  .telegram
+    width: 40px
+    height: 40px
+    color: #F15E63
 
 // media 
 @media (max-width: 1048px) 
@@ -179,6 +211,7 @@ ul.menu
     display: none
   .nav-icon
     display: block
+  
   // .fixed-menu.vue-fixed-header--isFixed 
     
 @media (max-width: 534px)
