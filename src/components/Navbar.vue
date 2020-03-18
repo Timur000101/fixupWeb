@@ -31,14 +31,6 @@
         </ul>
       </div>
     </transition>
-  
-    <div class="social-network">
-      <i class="fab fa-instagram instagram"></i>
-      <i class="fab fa-facebook facebook"></i>
-      <i class="fab fa-telegram telegram"></i>
-    </div>
-
-    
   </nav>
 </template>
 
@@ -73,7 +65,7 @@ export default {
   list-style: none
 body
   font-family: sans-serif
-.fixed-menu
+nav 
   display: flex
   justify-content: space-between
   align-items: center
@@ -103,13 +95,10 @@ ul.menu
     margin-right: 50px
     text-transform: uppercase
     font-weight: bold
-    list-style: none
-    text-decoration: none
     &:last-child
       margin-right: 0
     a
       color: #fff
-      text-decoration: none
     a:before
       content: ''
       width: 0px
