@@ -1,5 +1,5 @@
 <template>
-  <section id="whyWe-section">
+  <section id="div-id">
     <div id="qwer" class="top-numbers-content">
       <div class="city">
         <div class="city-number">
@@ -314,7 +314,7 @@ section
     right: 29%
     top: 55%
 @media (max-width: 1100px)
-  #whyWe-section
+  #div-id
     padding-bottom: 0 
   .why-content_main_images
     display: none

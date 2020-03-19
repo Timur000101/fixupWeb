@@ -6,29 +6,30 @@
       <nav class="fixed-menu">
         <label class="logo">FixUp</label>
         <ul class="menu">
-          <router-link class="link" tag="li" v-for="link of links" :key="link.text" router :to="link.route">
-            {{ link.text }}
-          </router-link>
+          <li class="link" router>Главная</li>
+          <li class="link" router to="/about">О нас</li>
+          <li class="link" href="#div" v-smooth-scroll="{ duration: 2000, updateHistory: false }">Вопросы и ответы</li>
+          <li class="link">Контакты</li>
         </ul>
-        <!-- <div class="nav-icon" @click="show">
+        <div class="nav-icon" @click="show">
           <div v-show="!showNav">      
-            <i class="fas fa-bars fa-fw" style="color: #fff"></i>
+            <i class="fas fa-bars fa-fw menu-icon" style="color: #fff"></i>
           </div>
           <div v-show="showNav">
-            <i class="fas fa-times fa-fw" style="color: #000"></i>
+            <i class="fas fa-times fa-fw menu-icon" style="color: #000"></i>
           </div>
-        </div> -->
+        </div>
       </nav>
     </fixed-header>
     
-    <div class="nav-icon" @click="show">
+    <!-- <div class="nav-icon" @click="show">
       <div v-show="!showNav">      
         <i class="fas fa-bars fa-fw" style="color: #fff"></i>
       </div>
       <div v-show="showNav">
-        <i class="fas fa-times fa-fw" style="color: #000"></i>
+        <i class="fas fa-times fa-fw" style="color: #F15E63"></i>
       </div>
-    </div>
+    </!--> 
 
     <transition name="fade">
       <div class="nav-container" v-show="showNav">
@@ -70,7 +71,7 @@ export default {
     links: [
       { text: 'Главная', route: '/' },
       { text: 'О нас', route: '/about'},
-      { text: 'Вопросы и ответы', route: '/questions'},
+      { text: 'Вопросы и ответы', route: '/questions',},
       { text: 'Контакты', route: '/contact'},
     ]
   }),
@@ -136,9 +137,9 @@ ul.menu
     &:hover &:before
       width: 30px
 .nav-icon
-  position: fixed
-  top: 0
-  right: 0
+  // position: fixed
+  // top: 0
+  // right: 0
   padding: 25px 50px
   z-index: 999
   font-size: 2rem
@@ -263,4 +264,6 @@ ul.menu
     padding: 0 30px
   .nav-icon
     padding: 25px 30px
+  nav
+    height: 60px
 </style>
