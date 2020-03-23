@@ -44,6 +44,11 @@
           <i class="fab fa-telegram telegram"></i>
         </div>
       </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__text">Интернет-агрегатор услуг «Fixup» 
+        не участвует во взаимоотношениях Пользователей. Все заявки создаются, 
+        направляются и исполняются Пользователями самостоятельно.</p>
+      </div>
     </div>
   </section>
 </template>
@@ -181,6 +186,15 @@ export default {
         width: 40px
         height: 40px
         color: #fff
+  .footer-bottom
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 10px 50px
+    &__text
+      text-align: center
+      font-size: 14px
+
 @media (max-width: 750px)
   .footer-section_head
     flex-direction: column
@@ -240,4 +254,7 @@ export default {
           padding: 0
     .social-network
       margin-bottom: 20px!important
+@media (max-width: 400px)
+  .footer-bottom__text
+    font-size: 12px!important
 </style>
