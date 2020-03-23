@@ -81,6 +81,7 @@ export default {
     justify-content: space-between
     // padding: 0 50px
     // height: 95px
+    background: #F5AEAE
     padding: 20px 50px
     .footer-logo
       display: flex

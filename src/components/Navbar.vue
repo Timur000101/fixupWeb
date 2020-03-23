@@ -6,10 +6,10 @@
       <nav class="fixed-menu">
         <label class="logo">FixUp</label>
         <ul class="menu">
-          <li class="link" router>Главная</li>
-          <li class="link" router to="/about">О нас</li>
+          <router-link class="link" tag="li" router to="/">Главная</router-link>
+          <router-link class="link" tag="li" router to="/about">О нас</router-link>
           <li class="link" href="#div" v-smooth-scroll="{ duration: 2000, updateHistory: false }">Вопросы и ответы</li>
-          <li class="link">Контакты</li>
+          <router-link class="link" tag="li" router to="/contact">Контакты</router-link>
         </ul>
         <div class="nav-icon" @click="show">
           <div v-show="!showNav">      

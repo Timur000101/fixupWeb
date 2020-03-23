@@ -25,7 +25,7 @@
     </div>
 
     <div class="down-button_content">
-      <div href="#div-id" v-smooth-scroll="{ duration: 1000, offset: -65, updateHistory: false }" class="down-button">
+      <div href="#div-id" v-smooth-scroll="{ duration: 1000, offset: -65, updateHistory: true }" class="down-button">
         <img src="@/assets/Icons/icons8-arrow-pointing-down-50.png" alt="">
       </div>
     </div>
