@@ -4,32 +4,32 @@
     <!-- <img class="background2" src="@/assets/Ресурс3.png"/> -->
     <fixed-header>
       <nav class="fixed-menu">
-        <label class="logo">FixUp</label>
+        <img src="../assets/Icons/F2_3.png" alt="" class="logo">
         <ul class="menu">
           <router-link class="link" tag="li" router to="/">Главная</router-link>
           <router-link class="link" tag="li" router to="/about">О нас</router-link>
           <li class="link" href="#div" v-smooth-scroll="{ duration: 2000, updateHistory: false }">Вопросы и ответы</li>
           <router-link class="link" tag="li" router to="/contact">Контакты</router-link>
         </ul>
-        <div class="nav-icon" @click="show">
+        <!-- <div class="nav-icon" @click="show">
           <div v-show="!showNav">      
             <i class="fas fa-bars fa-fw menu-icon" style="color: #fff"></i>
           </div>
           <div v-show="showNav">
             <i class="fas fa-times fa-fw menu-icon" style="color: #000"></i>
           </div>
-        </div>
+        </div> -->
       </nav>
     </fixed-header>
     
-    <!-- <div class="nav-icon" @click="show">
+    <div class="nav-icon" @click="show">
       <div v-show="!showNav">      
         <i class="fas fa-bars fa-fw" style="color: #fff"></i>
       </div>
       <div v-show="showNav">
         <i class="fas fa-times fa-fw" style="color: #F15E63"></i>
       </div>
-    </!--> 
+    </div>
 
     <transition name="fade">
       <div class="nav-container" v-show="showNav">
@@ -99,6 +99,7 @@ nav
   height: 80px
   width: 100%
   position: relative
+  overflow-y: hidden;
 .fixed-menu.vue-fixed-header--isFixed 
   position: fixed
   left: 0
@@ -108,11 +109,10 @@ nav
   transition: .8s
   z-index: 99
    
-label.logo
-  font-size: 35px
-  font-weight: bold
+.logo
   padding: 0 50px
-  color: #fff
+  width: 70px
+  height: 70px
 ul.menu 
   display: flex
   justify-content: space-between
@@ -137,9 +137,8 @@ ul.menu
     &:hover &:before
       width: 30px
 .nav-icon
-  // position: fixed
-  // top: 0
-  // right: 0
+  position: fixed
+  right: 0
   padding: 25px 50px
   z-index: 999
   font-size: 2rem

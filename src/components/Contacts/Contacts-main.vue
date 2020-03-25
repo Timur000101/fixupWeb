@@ -175,4 +175,6 @@ export default {
   @media (max-width: 500px)
     .social-us
       height: 100px!important
+    .call-us
+      height: 150px!important
 </style>

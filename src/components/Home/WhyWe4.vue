@@ -13,8 +13,7 @@
             <img id="books" class="books" src="@/assets/Slides/Slides-1/Ресурс9.svg" alt="">
           </div>
           <div class="why-content_main_info4">
-            <h1>Keep Track Of Stock <br> Wherever You Are</h1>
-            <p class="why-content_main_info_text4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            <p class="why-content_main_info_text4" style="margin-top: 120px">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
               Neque, delectus facere totam ducimus amet ipsa nam, <br> quidem 
               eligendi.
             </p>
@@ -72,7 +71,7 @@ export default {
       justify-content: space-between
       align-items: center
       width: 90%
-      margin-top: 50px 
+      margin-top: 20px 
       .why-content_main_images4
         .wall4
           position: absolute

@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="app-phone">
-        <img class="phone"  src="@/assets/Ресурс1.png" alt="">
+        <img class="phone"  src="@/assets/phone-fixup.png" alt="">
       </div>
     </div>
 
@@ -113,9 +113,9 @@ export default {
   display: flex
   justify-content: center
   align-items: center
-  padding-right: 50px
+  padding-right: 150px
   .phone
-    width: 550px
+    width: 300px
 .down-button_content
   width: 100%
   display: flex
