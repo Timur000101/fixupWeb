@@ -6,7 +6,7 @@
       </div>
       <div class="why-content_main3">
           <div class="why-content_main_info3">
-            <p class="why-content_main_info_text3" style="margin-top: 120px">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            <p class="why-content_main_info_text3">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
               Neque, delectus facere totam ducimus amet ipsa nam, <br> quidem 
               eligendi.
             </p>
@@ -83,8 +83,11 @@ export default {
           color: #151948
           margin-bottom: 20px
         .why-content_main_info_text3
+          display: flex
+          align-items: flex-end
           font-size: 20px
           margin-bottom: 30px
+          height: 200px
           color: #000
         .mobile-platform3
           display: flex
@@ -182,6 +185,7 @@ export default {
       font-size: 30px !important
   .why-content_main_info_text3
     font-size: 18px !important
+    height: 100px!important
   .why-content_main_info3
     h1
       font-size: 25px !important

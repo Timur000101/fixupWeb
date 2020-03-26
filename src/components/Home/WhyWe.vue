@@ -49,7 +49,7 @@
       <div class="why-content_main">
         <div class="why-content_main_info">
           <!-- <h1>asdfjkhasdljfhbalsjdhfbl<br>as;kdfnjkasdf</h1> -->
-          <p class="why-content_main_info_text" style="margin-top: 120px">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+          <p class="why-content_main_info_text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
             Neque, delectus facere totam ducimus amet ipsa nam, <br> quidem 
             eligendi.
           </p>
@@ -187,6 +187,7 @@ section
         display: flex
         flex-direction: column
         width: 100%
+        // height: 300px
         padding: 0 20px
         
         h1
@@ -194,9 +195,12 @@ section
           color: #151948
           margin-bottom: 20px
         .why-content_main_info_text
+          display: flex
+          align-items: flex-end
           font-size: 20px
           margin-bottom: 30px
           padding: 0 10px
+          height: 200px
         .mobile-platform1
           display: flex
           justify-content: flex-start
@@ -373,6 +377,7 @@ section
       font-size: 30px !important
   .why-content_main_info_text
     font-size: 18px !important
+    height: 100px!important
   .why-content_main_info
     h1
       font-size: 25px !important

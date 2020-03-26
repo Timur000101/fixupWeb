@@ -8,7 +8,7 @@
         <ul class="menu">
           <router-link class="link" tag="li" router to="/">Главная</router-link>
           <router-link class="link" tag="li" router to="/about">О нас</router-link>
-          <li class="link" href="#div" v-smooth-scroll="{ duration: 2000, updateHistory: false }">Вопросы и ответы</li>
+          <router-link class="link" tag="li" router to="/questions">Вопросы и ответы</router-link>
           <router-link class="link" tag="li" router to="/contact">Контакты</router-link>
         </ul>
         <!-- <div class="nav-icon" @click="show">
@@ -151,7 +151,7 @@ ul.menu
   justify-content: center
   align-items: center
   width: 100%
-  height: 190vh
+  height: 200vh
   background: #fff
   overflow: hidden
   z-index: 99
@@ -259,7 +259,9 @@ ul.menu
     display: none !important
   .background2 
     display: block
-  label.logo
+  .logo
+    width: 50px
+    height: 50px
     padding: 0 30px
   .nav-icon
     padding: 25px 30px

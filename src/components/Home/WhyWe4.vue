@@ -13,7 +13,7 @@
             <img id="books" class="books" src="@/assets/Slides/Slides-1/Ресурс9.svg" alt="">
           </div>
           <div class="why-content_main_info4">
-            <p class="why-content_main_info_text4" style="margin-top: 120px">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            <p class="why-content_main_info_text4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
               Neque, delectus facere totam ducimus amet ipsa nam, <br> quidem 
               eligendi.
             </p>
@@ -27,7 +27,7 @@
             </div>
           </div>
           <div class="media-photo4">
-            <img id="slide4" class="slide4" src="@/assets/Slides/Slides-4/Slide4.svg" alt="slide4">
+            <img id="slide4" class="slide4" src="@/assets/Slides/Slides-4/Slide-4.svg" alt="slide4">
           </div>
       </div>
     </div>
@@ -110,6 +110,10 @@ export default {
           color: #151948
           margin-bottom: 20px
         .why-content_main_info_text4
+          display: flex
+          align-items: flex-end
+          justify-content: flex-end
+          height: 200px
           font-size: 20px
           margin-bottom: 30px
         .mobile-platform4
@@ -190,6 +194,7 @@ export default {
       font-size: 30px !important
   .why-content_main_info_text4
     font-size: 18px !important
+    height: 100px!important
   .why-content_main_info4
     h1
       font-size: 25px !important
