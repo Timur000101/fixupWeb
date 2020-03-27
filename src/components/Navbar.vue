@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="z-index: 99999">
     <!-- <img class="background" src="@/assets/Ресурс2.png"/> -->
     <!-- <img class="background2" src="@/assets/Ресурс3.png"/> -->
     <fixed-header>
