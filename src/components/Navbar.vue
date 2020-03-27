@@ -3,7 +3,7 @@
     <!-- <img class="background" src="@/assets/Ресурс2.png"/> -->
     <!-- <img class="background2" src="@/assets/Ресурс3.png"/> -->
     <fixed-header>
-      <nav class="fixed-menu">
+      <nav class="fixed-menu" style="position: fixed;">
         <img src="../assets/Icons/F2_3.png" alt="" class="logo">
         <ul class="menu">
           <router-link class="link" tag="li" router to="/">Главная</router-link>
@@ -13,25 +13,25 @@
         </ul>
         <div class="nav-icon" @click="show" style="position: fixed;">
           <div v-show="!showNav">      
-            <i class="fas fa-bars fa-fw menu-icon" style="color: #fff"></i>
+            <i class="fas fa-bars fa-fw" style="color: #fff"></i>
           </div>
           <div v-show="showNav">
-            <i class="fas fa-times fa-fw menu-icon" style="color: #000"></i>
+            <i class="fas fa-times fa-fw" style="color: #F15E63"></i>
           </div>
         </div>
       </nav>
     </fixed-header>
     
-    <!-- <div class="nav-icon" @click="show">
+    <div class="nav-icon" @click="show" style="position: fixed;">
       <div v-show="!showNav">      
         <i class="fas fa-bars fa-fw" style="color: #fff"></i>
       </div>
       <div v-show="showNav">
         <i class="fas fa-times fa-fw" style="color: #F15E63"></i>
       </div>
-    </div> -->
+    </div>
 
-    <transition name="fade">
+    <transition name="fade" style="position: fixed;">
       <div class="nav-container" v-show="showNav">
         <ul class="menu-mobile">
           <router-link class="link" tag="li" v-for="link of links" :key="link.text" router :to="link.route">
