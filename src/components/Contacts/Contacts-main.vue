@@ -62,7 +62,7 @@ export default {
       display: flex
       justify-content: center
       align-items: center
-      height: 250px
+      height: 200px
       width: 100%
       background: #F29291
       &__title

@@ -1,17 +1,19 @@
 <template>
   <div class="about">
     <Navbar style="background: #F15E63;"/>
-    <AboutMain style="background: #F8F8FF;"/>
+    <AboutMain />
+    <AboutWe />
   </div>
 </template>
 
 <script>
 import AboutMain from '../components/About/AboutMain.vue'
 import Navbar from "../components/Navbar.vue"
+import AboutWe from '../components/About/AboutWe'
 export default {
   name: 'About',
   components: {
-    Navbar, AboutMain
+    Navbar, AboutMain, AboutWe
   },
 }
 </script>

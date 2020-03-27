@@ -131,7 +131,6 @@ section
           margin-left: 10px
       .city-card-title 
         font-size: 30px
-      
     .happy-customers 
       display: flex
       flex-direction: column
@@ -156,7 +155,6 @@ section
           margin-left: 10px
       .users-card-title 
         font-size: 30px
-  
   .why-content
     position: relative
     display: flex

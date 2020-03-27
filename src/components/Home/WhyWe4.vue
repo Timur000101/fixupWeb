@@ -27,7 +27,7 @@
             </div>
           </div>
           <div class="media-photo4">
-            <img id="slide4" class="slide4" src="@/assets/Slides/Slides-4/Slide-4.svg" alt="slide4">
+            <img id="slide4" class="slide4" src="@/assets/Slides/Slides-4/Slide4.svg" alt="slide4">
           </div>
       </div>
     </div>

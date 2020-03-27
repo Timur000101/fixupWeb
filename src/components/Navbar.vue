@@ -4,7 +4,8 @@
     <!-- <img class="background2" src="@/assets/Ресурс3.png"/> -->
     <fixed-header>
       <nav class="fixed-menu">
-        <img src="../assets/Icons/F2_3.png" alt="" class="logo">
+        <!-- <img src="../assets/Icons/F2_3.png" alt="" class="logo"> -->
+        <h1 class="logo">FixUp</h1>
         <ul class="menu">
           <router-link class="link" tag="li" router to="/">Главная</router-link>
           <router-link class="link" tag="li" router to="/about">О нас</router-link>
@@ -111,8 +112,10 @@ nav
    
 .logo
   padding: 0 50px
-  width: 70px
-  height: 70px
+  color: #fff
+  font-size: 30px
+    // width: 70px
+    // height: 70px
 ul.menu 
   display: flex
   justify-content: space-between
@@ -240,7 +243,7 @@ ul.menu
 
 // media 
 @media (max-width: 1048px) 
-  label.logo
+  .logo
     font-size: 30px
   ul.menu li
     font-size: 15px
@@ -260,8 +263,8 @@ ul.menu
   .background2 
     display: block
   .logo
-    width: 50px
-    height: 50px
+    // width: 50px
+    // height: 50px
     padding: 0 30px
   .nav-icon
     padding: 25px 30px

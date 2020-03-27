@@ -1,7 +1,7 @@
 <template>
   <div class="qanswers">
     <Navbar style="background: #F15E63;"/>
-    <QuestionBlog style="margin-top: 80px;"/>
+    <QuestionBlog style="margin-top: 150px;"/>
     <Footer style="margin-top: 100px; margin-bottom: 0;"/>
   </div>
 </template>
@@ -12,7 +12,7 @@ import QuestionBlog from '../components/Qanswers/QuestionBlog.vue'
 import Footer from '../components/Footer.vue'
 export default {
   components: {
-    Navbar, QuestionBlog, Footer
+    Navbar, QuestionBlog, Footer,
   }
 }
 </script>
