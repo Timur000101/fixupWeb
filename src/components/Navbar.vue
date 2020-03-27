@@ -1,36 +1,35 @@
 <template>
-  <nav class="z-index: 99999">
+  <nav>
     <!-- <img class="background" src="@/assets/Ресурс2.png"/> -->
     <!-- <img class="background2" src="@/assets/Ресурс3.png"/> -->
     <fixed-header>
       <nav class="fixed-menu">
-        <!-- <img src="../assets/Icons/F2_3.png" alt="" class="logo"> -->
-        <h1 class="logo">FixUp</h1>
+        <img src="../assets/Icons/F2_3.png" alt="" class="logo">
         <ul class="menu">
           <router-link class="link" tag="li" router to="/">Главная</router-link>
           <router-link class="link" tag="li" router to="/about">О нас</router-link>
           <router-link class="link" tag="li" router to="/questions">Вопросы и ответы</router-link>
           <router-link class="link" tag="li" router to="/contact">Контакты</router-link>
         </ul>
-        <!-- <div class="nav-icon" @click="show">
+        <div class="nav-icon" @click="show" style="position: fixed;">
           <div v-show="!showNav">      
             <i class="fas fa-bars fa-fw menu-icon" style="color: #fff"></i>
           </div>
           <div v-show="showNav">
             <i class="fas fa-times fa-fw menu-icon" style="color: #000"></i>
           </div>
-        </div> -->
+        </div>
       </nav>
     </fixed-header>
     
-    <div class="nav-icon" @click="show">
+    <!-- <div class="nav-icon" @click="show">
       <div v-show="!showNav">      
         <i class="fas fa-bars fa-fw" style="color: #fff"></i>
       </div>
       <div v-show="showNav">
         <i class="fas fa-times fa-fw" style="color: #F15E63"></i>
       </div>
-    </div>
+    </div> -->
 
     <transition name="fade">
       <div class="nav-container" v-show="showNav">
@@ -112,10 +111,8 @@ nav
    
 .logo
   padding: 0 50px
-  color: #fff
-  font-size: 30px
-    // width: 70px
-    // height: 70px
+  width: 70px
+  height: 70px
 ul.menu 
   display: flex
   justify-content: space-between
@@ -243,7 +240,7 @@ ul.menu
 
 // media 
 @media (max-width: 1048px) 
-  .logo
+  label.logo
     font-size: 30px
   ul.menu li
     font-size: 15px
@@ -263,8 +260,8 @@ ul.menu
   .background2 
     display: block
   .logo
-    // width: 50px
-    // height: 50px
+    width: 50px
+    height: 50px
     padding: 0 30px
   .nav-icon
     padding: 25px 30px

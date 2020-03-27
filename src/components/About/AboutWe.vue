@@ -144,7 +144,8 @@ export default {
     justify-content: space-between
     align-items: center
     width: 80%
-    height: 70vh
+    // height: 70vh
+    margin-bottom: 40px
     .left-main-info
       display: flex
       flex-direction: column
