@@ -56,14 +56,14 @@
 <script>
 export default {
   data: () => ({
-    links: [
+    links: [ 
       { text: 'О нас', route: '/about'},
       { text: 'Вопросы и ответы', route: '/questions'},
       { text: 'Контакты', route: '/contact'},
     ],
     data: [
       { text: 'ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ', route: '/polit'},
-      { text: 'ОФЕРТА', route: '/ofert'},
+      { text: 'ОФЕРТА', route: '/offer'},
     ]
   })
 }

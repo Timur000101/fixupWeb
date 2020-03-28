@@ -6,8 +6,8 @@
       </div>
       <div class="why-content_main4">
           <div class="why-content_main_images4">
-            <img id="wall4" class="wall4" src="@/assets/Slides/Slides-4/wall4.svg" alt="wall">
-            <img id="floor4" class="floor4" src="@/assets/Slides/Slides-4/floor44.svg" alt="floor">
+            <img id="wall4" class="wall4" src="@/assets/Slides/Slides-4/wall-floor.svg" alt="wall">
+            <!-- <img id="floor4" class="floor4" src="@/assets/Slides/Slides-4/floor44.svg" alt="floor"> -->
             <img id="man_woman" class="man_woman" src="@/assets/Slides/Slides-4/man_woman.svg" alt="man_woman">
             <img id="comp_table" class="comp_table" src="@/assets/Slides/Slides-4/comp_tablel.svg" alt="comp_table">
             <img id="books" class="books" src="@/assets/Slides/Slides-1/Ресурс9.svg" alt="">
