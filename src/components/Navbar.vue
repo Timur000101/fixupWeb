@@ -4,10 +4,10 @@
     <!-- <img class="background2" src="@/assets/Ресурс3.png"/> -->
     <fixed-header>
       <nav class="fixed-menu" style="position: fixed;">
-        <img src="../assets/Icons/F2_3.png" alt="" class="logo">
+        <img @click="logoClick()" src="../assets/Icons/F2_3.png" alt="" class="logo">
         <ul class="menu">
           <router-link class="link" tag="li" router to="/">Главная</router-link>
-          <router-link class="link" tag="li" router to="/about">О нас</router-link>
+          <router-link class="link" tag="li" router :to="{name: 'about'}">О нас</router-link>
           <router-link class="link" tag="li" router to="/questions">Вопросы и ответы</router-link>
           <router-link class="link" tag="li" router to="/contact">Контакты</router-link>
         </ul>
@@ -79,6 +79,9 @@ export default {
     show() {
       this.showNav = !this.showNav;
     },
+    logoClick() {
+      this.$router.push({ path: '/', force: true })
+    }
   }
 }
 </script>
@@ -113,6 +116,7 @@ nav
   padding: 0 50px
   width: 70px
   height: 70px
+  cursor: pointer
 ul.menu 
   display: flex
   justify-content: space-between
