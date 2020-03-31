@@ -81,6 +81,7 @@ export default {
     },
     logoClick() {
       this.$router.push({ path: '/', force: true })
+      document.location.reload(true)
     }
   }
 }
