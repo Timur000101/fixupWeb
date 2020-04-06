@@ -43,6 +43,14 @@ const routes = [
       reload: true
     },
     component: () => import('../views/Offer.vue')
+  },
+  {
+    path: '/polit',
+    name: SecurityPolicyViolationEvent,
+    meta: {
+      reload: true
+    },
+    component: () => import('../views/Polit.vue')
   }
 ]
 
