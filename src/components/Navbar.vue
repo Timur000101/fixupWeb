@@ -26,6 +26,20 @@
           {{ link.text }}
         </router-link>
       </ul>
+      <div class="menu-button">
+        <div class="button">
+          <a href="#">
+            <p>Скачать сейчас</p>
+            <img src="@/assets/os/android.png" alt="">
+            <img src="@/assets/os/ios.png" alt="ios">
+          </a>
+        </div>
+      </div>
+      <div class="social-network">
+        <i class="fab fa-instagram instagram"></i>
+        <i class="fab fa-facebook facebook"></i>
+        <i class="fab fa-telegram telegram"></i>
+      </div>
     </div>
   </nav>
 </template>
@@ -98,14 +112,14 @@ ul.menu
     cursor: pointer
     &:last-child
       margin-right: 0
-    // &:before
-    //   content: ''
-    //   // width: 0px
-    //   // height: 4px
-    //   // background: #fff
-    //   // position: absolute
-    //   // top: 55px
-    //   // transition: .5s
+    &:before
+      content: ''
+      width: 0px
+      height: 4px
+      background: #fff
+      position: absolute
+      top: 55px
+      transition: .5s
     &:hover &:before
       width: 30px
 .nav-icon
@@ -127,6 +141,12 @@ ul.menu
   background: #fff
   overflow: hidden
   z-index: 999!important
+  ::before
+    content: ''
+    position: absolute
+    min-height: 100vh
+    background: inherit
+    z-index: 10
 .fade-enter-active, .fade-leave-active
   transition: all .2s ease-in-out
 .fade-enter, .fade-leave-to
@@ -159,11 +179,16 @@ ul.menu
     justify-content: center
     align-items: center
     color: #fff
-    p 
-      margin-right: 10px
-    img
-      width: 30px
-      height: 30px
+    a
+      display: flex
+      flex-direction: row
+      align-items: center
+      color: #fff
+      p 
+        margin-right: 10px
+      img
+        width: 30px
+        height: 30px
   
 .social-network-title
   color: #333
