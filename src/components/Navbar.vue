@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <fixed-header>
+    <fixed-header style="z-index: 999">
       <nav class="fixed-menu">
         <img @click="logoClick()" src="../assets/Icons/F2_3.png" alt="" class="logo">
         <ul class="menu">
@@ -82,6 +82,7 @@ nav
   width: 100%
   background: #f15e63
   transition: .8s   
+  z-index: 999!important
 .logo
   padding: 0 50px
   width: 70px
