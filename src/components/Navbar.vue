@@ -1,7 +1,5 @@
 <template>
   <nav>
-    <!-- <img class="background" src="@/assets/Ресурс2.png"/> -->
-    <!-- <img class="background2" src="@/assets/Ресурс3.png"/> -->
     <fixed-header>
       <nav class="fixed-menu">
         <img @click="logoClick()" src="../assets/Icons/F2_3.png" alt="" class="logo">
@@ -11,14 +9,6 @@
           <router-link class="link" tag="li" router to="/questions">Вопросы и ответы</router-link>
           <router-link class="link" tag="li" router to="/contact">Контакты</router-link>
         </ul>
-        <!-- <div class="nav-icon" @click="show" style="position: fixed; z-index: 9999">
-          <div v-show="!showNav">      
-            <i class="fas fa-bars fa-fw" style="color: #fff"></i>
-          </div>
-          <div v-show="showNav">
-            <i class="fas fa-times fa-fw" style="color: #fff"></i>
-          </div>
-        </div> -->
       </nav>
     </fixed-header>
     <div class="nav-icon" @click="show" style="position: fixed;">
@@ -30,7 +20,7 @@
       </div>
     </div>
 
-    <div class="nav-container" v-show="showNav">
+    <div class="nav-container" v-show="showNav" style="background: #fff">
       <ul class="menu-mobile">
         <router-link class="link" tag="li" v-for="link of links" :key="link.text" router :to="link.route">
           {{ link.text }}
@@ -161,21 +151,6 @@ ul.menu
     color: #000!important
     margin-top: 30px
     cursor: pointer
-// .background
-//   width: 100%
-//   height: 100vh 
-//   position: absolute 
-//   top: 0 
-//   left: 0 
-//   z-index: -999
-// .background2
-//   display: none  
-//   width: 100%
-//   height: 120vh 
-//   position: absolute 
-//   top: 0 
-//   left: 0 
-//   z-index: -999
 .menu-button
   display: flex
   justify-content: center
