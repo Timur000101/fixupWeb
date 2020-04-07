@@ -3,7 +3,7 @@
     <!-- <img class="background" src="@/assets/Ресурс2.png"/> -->
     <!-- <img class="background2" src="@/assets/Ресурс3.png"/> -->
     <fixed-header>
-      <nav class="fixed-menu" style="position: fixed;">
+      <nav class="fixed-menu" style="position: fixed; z-index: 999">
         <img @click="logoClick()" src="../assets/Icons/F2_3.png" alt="" class="logo">
         <ul class="menu">
           <router-link class="link" tag="li" router to="/">Главная</router-link>
@@ -11,12 +11,12 @@
           <router-link class="link" tag="li" router to="/questions">Вопросы и ответы</router-link>
           <router-link class="link" tag="li" router to="/contact">Контакты</router-link>
         </ul>
-        <div class="nav-icon" @click="show" style="position: fixed;">
+        <div class="nav-icon" @click="show" style="position: fixed; z-index: 9999">
           <div v-show="!showNav">      
             <i class="fas fa-bars fa-fw" style="color: #fff"></i>
           </div>
           <div v-show="showNav">
-            <i class="fas fa-times fa-fw" style="color: #F15E63"></i>
+            <i class="fas fa-times fa-fw" style="color: #fff"></i>
           </div>
         </div>
       </nav>
@@ -111,7 +111,7 @@ nav
   width: 100%
   background: #f15e63
   transition: .8s
-  z-index: 99
+  z-index: 9999!important
    
 .logo
   padding: 0 50px

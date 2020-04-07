@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Navbar style="background: #F29291; z-index: 9999; max-height: 120vh"/>
+    <Navbar style="background: #F29291; z-index: 999; max-height: 120vh"/>
     <MainPage style="overflow-x: hidden; overflow-y: hidden; background: #F29291;"/>
     <WhyWe style="  overflow-x: hidden; overflow-y: hidden;"/>
     <WhyWe2 style="margin-top: 50px;  overflow-x: hidden; overflow-y: hidden;" />
