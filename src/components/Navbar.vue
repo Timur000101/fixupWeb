@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <fixed-header style="z-index: 999">
+    <fixed-header style="z-index: 999; position: fixed;">
       <nav class="fixed-menu">
         <img @click="logoClick()" src="../assets/Icons/F2_3.png" alt="" class="logo">
         <ul class="menu">
@@ -65,7 +65,6 @@ export default {
   list-style: none
 body
   font-family: sans-serif
-  overflow-x: hidden
 nav 
   display: flex
   justify-content: space-between
@@ -73,10 +72,9 @@ nav
   height: 80px
   width: 100%
   position: relative
-  overflow-y: hidden;
   z-index: 9
 .fixed-menu.vue-fixed-header--isFixed 
-  position: fixed
+  position: fixed!important
   left: 0
   top: 0
   width: 100%
@@ -100,14 +98,14 @@ ul.menu
     cursor: pointer
     &:last-child
       margin-right: 0
-    &:before
-      content: ''
-      width: 0px
-      height: 4px
-      background: #fff
-      position: absolute
-      top: 55px
-      transition: .5s
+    // &:before
+    //   content: ''
+    //   // width: 0px
+    //   // height: 4px
+    //   // background: #fff
+    //   // position: absolute
+    //   // top: 55px
+    //   // transition: .5s
     &:hover &:before
       width: 30px
 .nav-icon
@@ -128,13 +126,7 @@ ul.menu
   height: 200vh
   background: #fff
   overflow: hidden
-  z-index: 999
-  ::before
-    content: ''
-    // position: absolute
-    // min-height: 100vh
-    // background: inherit
-    z-index: 10
+  z-index: 999!important
 .fade-enter-active, .fade-leave-active
   transition: all .2s ease-in-out
 .fade-enter, .fade-leave-to
