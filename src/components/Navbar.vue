@@ -3,7 +3,7 @@
     <!-- <img class="background" src="@/assets/Ресурс2.png"/> -->
     <!-- <img class="background2" src="@/assets/Ресурс3.png"/> -->
     <fixed-header>
-      <nav class="fixed-menu" style="position: fixed; z-index: 999">
+      <nav class="fixed-menu">
         <img @click="logoClick()" src="../assets/Icons/F2_3.png" alt="" class="logo">
         <ul class="menu">
           <router-link class="link" tag="li" router to="/">Главная</router-link>
@@ -11,17 +11,16 @@
           <router-link class="link" tag="li" router to="/questions">Вопросы и ответы</router-link>
           <router-link class="link" tag="li" router to="/contact">Контакты</router-link>
         </ul>
-        <div class="nav-icon" @click="show" style="position: fixed; z-index: 9999">
+        <!-- <div class="nav-icon" @click="show" style="position: fixed; z-index: 9999">
           <div v-show="!showNav">      
             <i class="fas fa-bars fa-fw" style="color: #fff"></i>
           </div>
           <div v-show="showNav">
             <i class="fas fa-times fa-fw" style="color: #fff"></i>
           </div>
-        </div>
+        </div> -->
       </nav>
     </fixed-header>
-    
     <div class="nav-icon" @click="show" style="position: fixed;">
       <div v-show="!showNav">      
         <i class="fas fa-bars fa-fw" style="color: #fff"></i>
@@ -31,32 +30,13 @@
       </div>
     </div>
 
-    <transition name="fade" style="position: fixed;">
-      <div class="nav-container" v-show="showNav">
-        <ul class="menu-mobile">
-          <router-link class="link" tag="li" v-for="link of links" :key="link.text" router :to="link.route">
-            {{ link.text }}
-          </router-link>
-        </ul>
-        <div class="menu-button">
-          <a class="button" href="#">
-            <p>Скачать сейчас</p>
-            <img src="@/assets/os/android.png" alt="">
-            <img src="@/assets/os/apple-logo.png" alt="">
-          </a>
-        </div>
-        <div class="social-network">
-          <div class="social-network-title">
-            <p>Мы в соцсетях</p>
-          </div>
-          <div class="icons">
-            <i class="fab fa-instagram instagram"></i>
-            <i class="fab fa-facebook facebook"></i>
-            <i class="fab fa-telegram telegram"></i>
-          </div>
-        </div>
-      </div>
-    </transition>
+    <div class="nav-container" v-show="showNav">
+      <ul class="menu-mobile">
+        <router-link class="link" tag="li" v-for="link of links" :key="link.text" router :to="link.route">
+          {{ link.text }}
+        </router-link>
+      </ul>
+    </div>
   </nav>
 </template>
 
@@ -104,15 +84,14 @@ nav
   width: 100%
   position: relative
   overflow-y: hidden;
+  z-index: 9
 .fixed-menu.vue-fixed-header--isFixed 
   position: fixed
   left: 0
   top: 0
   width: 100%
   background: #f15e63
-  transition: .8s
-  z-index: 9999!important
-   
+  transition: .8s   
 .logo
   padding: 0 50px
   width: 70px
@@ -122,7 +101,6 @@ ul.menu
   display: flex
   justify-content: space-between
   padding: 0 50px 0 0
-  z-index: 99
   .link 
     margin-right: 50px
     text-transform: uppercase
@@ -145,7 +123,7 @@ ul.menu
   position: fixed
   right: 0
   padding: 25px 50px
-  z-index: 999
+  z-index: 9999!important
   font-size: 2rem
   cursor: pointer
   display: none
@@ -159,13 +137,12 @@ ul.menu
   height: 200vh
   background: #fff
   overflow: hidden
-  z-index: 99
+  z-index: 999
   ::before
     content: ''
-    position: absolute
-    // width: 100%
-    min-height: 100vh
-    background: inherit
+    // position: absolute
+    // min-height: 100vh
+    // background: inherit
     z-index: 10
 .fade-enter-active, .fade-leave-active
   transition: all .2s ease-in-out
