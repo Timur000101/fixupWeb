@@ -5,7 +5,7 @@
     </div>
     <div class="contacts__main">
       <div class="write-us">
-        <img src="../../assets/ContactsPage/mail.png" alt="" class="write-us__image">
+        <img src="@/assets/ContactsPage/mail.png" alt="" class="write-us__image">
         <div class="write-us__info">
           <div class="write-us__info__item">
             <p class="write-item__title">Сотрудничество и реклама</p>
@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="call-us">
-        <img src="../../assets/ContactsPage/phone.png" alt="" class="call-us__image">
+        <img src="@/assets/ContactsPage/phone.png" alt="" class="call-us__image">
         <div class="call-us__info">
           <div class="call-us__info__item">
             <p class="call-item__title">Казахстан</p>
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="social-us">
-        <img src="../../assets/ContactsPage/account.png" alt="" class="">
+        <img src="@/assets/ContactsPage/account.png" alt="" class="">
         <div class="social-us__info">
           <i class="fab fa-instagram instagram"></i>
           <i class="fab fa-facebook facebook"></i>

@@ -7,9 +7,9 @@
       <div class="why-content_main4">
           <div class="why-content_main_images4">
             <img id="wall4" class="wall4" src="@/assets/Slides/Slides-4/wall-floor.svg" alt="wall">
-            <!-- <img id="floor4" class="floor4" src="@/assets/Slides/Slides-4/floor44.svg" alt="floor"> -->
             <img id="man_woman" class="man_woman" src="@/assets/Slides/Slides-4/man_woman.svg" alt="man_woman">
             <img id="comp_table" class="comp_table" src="@/assets/Slides/Slides-4/comp_tablel.svg" alt="comp_table">
+            <img id="stars" class="stars" src="@/assets/Slides/Slides-4/stars4.svg" alt="stars">
             <img id="books" class="books" src="@/assets/Slides/Slides-1/Ресурс9.svg" alt="">
           </div>
           <div class="why-content_main_info4">
@@ -99,6 +99,11 @@ export default {
           width: 200px
           top: 60px
           left: 100px
+        #stars
+          position: absolute
+          width: 65px
+          top: 300px
+          left: 480px
       .why-content_main_info4
         z-index: 2
         display: flex
@@ -154,6 +159,10 @@ export default {
     left: 230px
   #comp_table
     width: 250px
+  #stars
+    width: 100px
+    top: 100px
+    left: 465px!important
 @media (max-width: 1200px)
   #wall4
     top: 21%

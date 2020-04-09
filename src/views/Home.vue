@@ -48,6 +48,8 @@ export default {
       const MAN_WOMAN = document.querySelector("#man_woman")
       const BOOKS = document.querySelector("#books")
       const COMP_TABLE = document.querySelector("#comp_table")
+      const STARS = document.querySelector('#stars')
+
 
       // First slide listeners
       window.addEventListener('scroll', scrollWoman)
@@ -67,6 +69,8 @@ export default {
       window.addEventListener('scroll', scrollManwoman)
       window.addEventListener('scroll', scrollBooks)
       window.addEventListener('scroll', scrollComptable)
+      window.addEventListener('scroll', scrollStars)
+
 
       // First slide illustrations
       // Scroll computer table animation
@@ -167,7 +171,7 @@ export default {
           MAN_LOCATION.style.transform = 'translateX(0px)'
         } else {
           MAN_LOCATION.style.opacity = '0'
-          MAN_LOCATION.style.transform = 'translateX(-50px)'
+          MAN_LOCATION.style.transform = 'translateX(-200px)'
         }
       }
 
@@ -178,7 +182,7 @@ export default {
           ROAD.style.transform = 'translateX(0px)'
         } else {
           ROAD.style.opacity = '0'
-          ROAD.style.transform = 'translateX(-50px)'
+          ROAD.style.transform = 'translateX(50px)'
         }
       }
 
@@ -219,11 +223,20 @@ export default {
       function scrollManwoman() {
         if(window.scrollY >= 2800) {
           MAN_WOMAN.style.opacity = '1'
-          MAN_WOMAN.style.transition = '0.9s ease-in-out'
+          MAN_WOMAN.style.transition = '0.8s ease-in-out'
           MAN_WOMAN.style.transform = 'translateX(0px)'
         } else {
           MAN_WOMAN.style.opacity = '0'
           MAN_WOMAN.style.transform = 'translateX(-100px)'
+        }
+      }
+
+      function scrollStars() {
+        if(window.scrollY >= 2950) {
+          STARS.style.opacity = '1'
+          STARS.style.transition = '0.8s ease-in-out'
+        } else {
+          STARS.style.opacity ='0'
         }
       }
     }

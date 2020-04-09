@@ -22,8 +22,8 @@
           <div class="why-content_main_images3">
             <!-- <img class="background" src="@/assets/Slides/Slides-3/back_1.png" alt="background"> -->
             <img id="map" class="map" src="@/assets/Slides/Slides-3/map.svg" alt="map">
-            <img id="man_location" class="man_location" src="@/assets/Slides/Slides-3/man_location.svg" alt="man_location">
-            <img id="woman_location" class="woman_location" src="@/assets/Slides/Slides-3/woman_location.svg" alt="woman_location">
+            <img id="man_location" class="man_location" src="@/assets/Slides/Slides-3/woman_location.svg" alt="man_location">
+            <img id="woman_location" class="woman_location" src="@/assets/Slides/Slides-3/man_location.svg" alt="woman_location">
             <img id="road" class="road" src="@/assets/Slides/Slides-3/road.svg" alt="road">
           </div>
           <div class="media-photo3">
