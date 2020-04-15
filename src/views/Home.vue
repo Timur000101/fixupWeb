@@ -199,7 +199,7 @@ export default {
 
       // Forth slide illustrations
       function scrollBooks() {
-        if(window.scrollY >= 2700) {
+        if(window.scrollY >= 2500) {
           BOOKS.style.opacity = '1'
           BOOKS.style.transition = '0.9s ease-in-out'
           BOOKS.style.transform = 'translateX(0px)'
@@ -210,7 +210,7 @@ export default {
       }
 
       function scrollComptable() {
-        if(window.scrollY >= 2750) {
+        if(window.scrollY >= 2600) {
           COMP_TABLE.style.opacity = '1'
           COMP_TABLE.style.transition = '1s ease-in-out'
           COMP_TABLE.style.transform = 'translateX(0px)'
@@ -221,7 +221,7 @@ export default {
       }
 
       function scrollManwoman() {
-        if(window.scrollY >= 2800) {
+        if(window.scrollY >= 2500) {
           MAN_WOMAN.style.opacity = '1'
           MAN_WOMAN.style.transition = '0.8s ease-in-out'
           MAN_WOMAN.style.transform = 'translateX(0px)'
@@ -232,7 +232,7 @@ export default {
       }
 
       function scrollStars() {
-        if(window.scrollY >= 2950) {
+        if(window.scrollY >= 2750) {
           STARS.style.opacity = '1'
           STARS.style.transition = '0.8s ease-in-out'
         } else {

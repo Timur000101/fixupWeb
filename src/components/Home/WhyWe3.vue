@@ -127,7 +127,7 @@ export default {
           z-index: 1
         .map
           position: absolute
-          top: -200px
+          top: -170px
           right: 50px
           width: 450px
         .man_location
