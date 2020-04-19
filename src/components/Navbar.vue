@@ -4,7 +4,7 @@
       <nav class="fixed-menu">
         <img @click="logoClick()" src="../assets/Icons/F2_3.png" alt="" class="logo">
         <ul class="menu">
-          <router-link class="link" tag="li" router to="/">Главная</router-link>
+          <router-link class="link" tag="li" router to="{name: 'home'}">Главная</router-link>
           <router-link class="link" tag="li" router :to="{name: 'about'}">О нас</router-link>
           <router-link class="link" tag="li" router to="/questions">Вопросы и ответы</router-link>
           <router-link class="link" tag="li" router to="/contact">Контакты</router-link>
@@ -13,10 +13,10 @@
     </fixed-header>
     <div class="nav-icon" @click="show" style="position: fixed;">
       <div v-show="!showNav">      
-        <i class="fas fa-bars fa-fw" style="color: #fff"></i>
+        <menu-icon fillColor="#FFF" :size="40"/>
       </div>
       <div v-show="showNav">
-        <i class="fas fa-times fa-fw" style="color: #F15E63"></i>
+        <close-icon fillColor="#F15E63" :size="40"/>
       </div>
     </div>
 
@@ -30,8 +30,8 @@
         <div class="button">
           <a href="#">
             <p>Скачать сейчас</p>
-            <img src="@/assets/os/android.png" alt="">
-            <img src="@/assets/os/ios.png" alt="ios">
+            <img src="../assets/os/android.png" alt="">
+            <img src="../assets/os/ios.png" alt="ios">
           </a>
         </div>
       </div>

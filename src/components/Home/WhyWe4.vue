@@ -6,11 +6,11 @@
       </div>
       <div class="why-content_main4">
           <div class="why-content_main_images4">
-            <img id="wall4" class="wall4" src="@/assets/Slides/Slides-4/wall-floor.svg" alt="wall">
-            <img id="man_woman" class="man_woman" src="@/assets/Slides/Slides-4/man_woman.svg" alt="man_woman">
-            <img id="comp_table" class="comp_table" src="@/assets/Slides/Slides-4/comp_tablel.svg" alt="comp_table">
-            <img id="stars" class="stars" src="@/assets/Slides/Slides-4/stars4.svg" alt="stars">
-            <img id="books" class="books" src="@/assets/Slides/Slides-1/Ресурс9.svg" alt="">
+            <img id="wall4" class="wall4" src="../../assets/Slides/Slides-4/wall-floor.svg" alt="wall">
+            <img id="man_woman" class="man_woman" src="../../assets/Slides/Slides-4/man_woman.svg" alt="man_woman">
+            <img id="comp_table" class="comp_table" src="../../assets/Slides/Slides-4/comp_tablel.svg" alt="comp_table">
+            <img id="stars" class="stars" src="../../assets/Slides/Slides-4/stars4.svg" alt="stars">
+            <img id="books" class="books" src="../../assets/Slides/Slides-1/Ресурс9.svg" alt="">
           </div>
           <div class="why-content_main_info4">
             <p class="why-content_main_info_text4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
@@ -20,14 +20,14 @@
             <div class="mobile-platform4">
               <div class="android-button4">
                 <a href="#">
-                  <img src="@/assets/os/ios.png" alt="">
+                  <img src="../../assets/os/ios.png" alt="">
                   <p>Скачать сейчас</p>
                 </a>
               </div>
             </div>
           </div>
           <div class="media-photo4">
-            <img id="slide4" class="slide4" src="@/assets/Slides/Slides-4/Slide4.svg" alt="slide4">
+            <img id="slide4" class="slide4" src="../../assets/Slides/Slides-4/Slide4.svg" alt="slide4">
           </div>
       </div>
     </div>

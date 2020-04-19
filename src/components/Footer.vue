@@ -3,19 +3,19 @@
     <div class="footer-section">
       <div class="footer-section_head">
         <div class="footer-logo">
-          <img src="@/assets/logo.png" alt="logo">
+          <img src="../assets/logo.png" alt="logo">
           <h2>FixUp</h2>
         </div>
         <div class="footer-buttons">
           <div class="android-button">
             <a href="#">
-              <img src="@/assets/os/android.png" alt="">
+              <img src="../assets/os/android.png" alt="">
               <p>Скачать сейчас</p>
             </a>
           </div>
           <div class="ios-button">
             <a href="#">
-              <img src="@/assets/os/ios.png" alt="ios">
+              <img src="../assets/os/ios.png" alt="ios">
               <p>Скачать сейчас</p>
             </a>
           </div>

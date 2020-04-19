@@ -2,31 +2,32 @@
   <div class="content">
     <div class="main-content">
       <div class="app-info">
-        <h1 class="main-title">It’s All About Promote<br> Your Business</h1>
-        <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor anagi icdunt ut labore et dolore magna aliqua.</p>
+        <h1 class="main-title" id="main-title">Рады приветствовать Вас<br>на ресурсе FixUp</h1>
+        <p class="main-text" id="main-text">FixUp - приложение для поиска заказчиков и исполнителей. С помощью приложения Вы можете,<br>
+        выполнять поиски специалистов, разместив свои заказы или стать специалистом, и найти для себя подработку, по своему квалификацию.</p>
         <div class="mobile-platform">
           <div class="android-button">
             <a href="#">
-              <img src="@/assets/os/android.png" alt="">
+              <img src="../../assets/os/android.png" alt="">
               <p>Скачать сейчас</p>
             </a>
           </div>
           <div class="ios-button">
             <a href="#">
-              <img src="@/assets/os/ios.png" alt="">
+              <img src="../../assets/os/ios.png" alt="">
               <p>Скачать сейчас</p>
             </a>
           </div>
         </div>
       </div>
       <div class="app-phone">
-        <img class="phone"  src="@/assets/phone-fixup.png" alt="">
+        <img class="phone"  src="../../assets/phone-fixup.png" alt="">
       </div>
     </div>
 
     <div class="down-button_content">
       <div href="#div-id" v-smooth-scroll="{ duration: 1000, offset: -65, updateHistory: true }" class="down-button">
-        <img src="@/assets/Icons/icons8-arrow-pointing-down-50.png" alt="">
+        <img src="../../assets/Icons/icons8-arrow-pointing-down-50.png" alt="">
       </div>
     </div>
   </div>

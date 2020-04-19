@@ -1,14 +1,17 @@
 <template>
-  <div id="app">
+  <div id="app" data-server-rendered="true">
     <router-view/>
+    <font-awesome-icon icon="user-secret" />
   </div>
 </template>
 
-<<script>
+<script>
 export default {
-  created() {
-    // document.location.reload(true)
-  },
+  name: 'app',
+  data () {
+    return {
+    }
+  }
 }
 </script>
 

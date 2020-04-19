@@ -56,26 +56,26 @@
           <div class="mobile-platform1">
             <div class="android-button1">
               <a href="#">
-                <img src="@/assets/os/android.png" alt="">
+                <img src="../../assets/os/android.png" alt="">
                 <p>Скачать сейчас</p>
               </a>
             </div>
           </div>
         </div>
         <div class="why-content_main_images">
-          <img class="wall" src="@/assets/Slides/Slides-1/Ресурс11.svg" alt="">
-          <img class="floor" src="@/assets/Slides/Slides-1/Floor4.png" alt="">
-          <img id="books" class="books" src="@/assets/Slides/Slides-1/Ресурс9.svg" alt="">
-          <img id="flowers" class="flowers" src="@/assets/Slides/Slides-1/flowers.svg" alt="">
-          <img id="woman" class="woman" src="@/assets/Slides/Slides-1/Ресурс6.svg" alt="">
+          <img class="wall" src="../../assets/Slides/Slides-1/Ресурс11.svg" alt="">
+          <img class="floor" src="../../assets/Slides/Slides-1/Floor4.png" alt="">
+          <img id="books" class="books" src="../../assets/Slides/Slides-1/Ресурс9.svg" alt="">
+          <img id="flowers" class="flowers" src="../../assets/Slides/Slides-1/flowers.svg" alt="">
+          <img id="woman" class="woman" src="../../assets/Slides/Slides-1/Ресурс6.svg" alt="">
           <div class="computer-complect">
-            <img id="computer" class="computer" src="@/assets/Slides/Slides-1/table.svg" alt="">
-            <img id="spark" class="spark" src="@/assets/Slides/Slides-1/spark.svg" alt="">
-            <img id="smoke" class="smoke" src="@/assets/Slides/Slides-1/smoke.svg" alt="">
+            <img id="computer" class="computer" src="../../assets/Slides/Slides-1/table.svg" alt="">
+            <img id="spark" class="spark" src="../../assets/Slides/Slides-1/spark.svg" alt="">
+            <img id="smoke" class="smoke" src="../../assets/Slides/Slides-1/smoke.svg" alt="">
           </div>
         </div>
         <div class="media-photo">
-          <img id="slide1" class="slide1" src="@/assets/Slides/Slides-1/Slide12.svg" alt="SLide1">
+          <img id="slide1" class="slide1" src="../../assets/Slides/Slides-1/Slide12.svg" alt="SLide1">
         </div>
       </div>
     </div>

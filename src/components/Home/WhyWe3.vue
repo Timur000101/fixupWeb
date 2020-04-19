@@ -13,7 +13,7 @@
             <div class="mobile-platform3">
               <div class="android-button3">
                 <a href="#">
-                  <img src="@/assets/os/android.png" alt="">
+                  <img src="../../assets/os/android.png" alt="">
                   <p>Скачать сейчас</p>
                 </a>
               </div>
@@ -21,13 +21,13 @@
           </div>
           <div class="why-content_main_images3">
             <!-- <img class="background" src="@/assets/Slides/Slides-3/back_1.png" alt="background"> -->
-            <img id="map" class="map" src="@/assets/Slides/Slides-3/map.svg" alt="map">
-            <img id="man_location" class="man_location" src="@/assets/Slides/Slides-3/woman_location.svg" alt="man_location">
-            <img id="woman_location" class="woman_location" src="@/assets/Slides/Slides-3/man_location.svg" alt="woman_location">
-            <img id="road" class="road" src="@/assets/Slides/Slides-3/road.svg" alt="road">
+            <img id="map" class="map" src="../../assets/Slides/Slides-3/map.svg" alt="map">
+            <img id="man_location" class="man_location" src="../../assets/Slides/Slides-3/woman_location.svg" alt="man_location">
+            <img id="woman_location" class="woman_location" src="../../assets/Slides/Slides-3/man_location.svg" alt="woman_location">
+            <img id="road" class="road" src="../../assets/Slides/Slides-3/road.svg" alt="road">
           </div>
           <div class="media-photo3">
-            <img id="slide3" class="slide3" src="@/assets/Slides/Slides-3/Slide3.svg" alt="slide3">
+            <img id="slide3" class="slide3" src="../../assets/Slides/Slides-3/Slide3.svg" alt="slide3">
           </div>
       </div>
     </div>

@@ -6,11 +6,11 @@
       </div>
       <div class="why-content_main2">
           <div class="why-content_main_images2">
-            <img class="floor" src="@/assets/Slides/Slides-2/floor3.png" alt="">
-            <img id="man" class="man" src="@/assets/Slides/Slides-2/man_with_table.svg" alt="">
-            <img id="clock" class="clock" src="@/assets/Slides/Slides-2/clock.svg" alt="">
-            <img id="picture" class="picture" src="@/assets/Slides/Slides-2/picture.svg" alt="">
-            <img id="stairs" class="stairs" src="@/assets/Slides/Slides-2/stairs.svg" alt="">
+            <img class="floor" src="../../assets/Slides/Slides-2/floor3.png" alt="">
+            <img id="man" class="man" src="../../assets/Slides/Slides-2/man_with_table.svg" alt="">
+            <img id="clock" class="clock" src="../../assets/Slides/Slides-2/clock.svg" alt="">
+            <img id="picture" class="picture" src="../../assets/Slides/Slides-2/picture.svg" alt="">
+            <img id="stairs" class="stairs" src="../../assets/Slides/Slides-2/stairs.svg" alt="">
           </div>
           <div class="why-content_main_info2">
             <p class="why-content_main_info_text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
@@ -20,14 +20,14 @@
             <div class="mobile-platform2">
               <div class="android-button2">
                 <a id="button" href="#">
-                  <img src="@/assets/os/ios.png" alt="">
+                  <img src="../../assets/os/ios.png" alt="">
                   <p>Скачать сейчас</p>
                 </a>
               </div>  
             </div>
           </div>
           <div class="media-photo2">
-            <img id="slide2" class="slide2" src="@/assets/Slides/Slides-2/Slide2.svg" alt="slide2">
+            <img id="slide2" class="slide2" src="../../assets/Slides/Slides-2/Slide2.svg" alt="slide2">
           </div>
       </div>
     </div>

@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
+import Home from '../views/Home.vue'
+import Qanswers from '../views/Qanswers.vue'
+import About from '../views/About.vue'
+import Contacts from '../views/Contacts'
+import Offer from '../views/Offer.vue'
+import Polit from '../views/Polit.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -10,7 +15,7 @@ const routes = [
     meta: {
       reload: true
     },
-    component: () => import('../views/Home.vue')
+    component: Home
   },
   {
     path: '/questions',
@@ -18,7 +23,7 @@ const routes = [
     meta: {
       reload: true
     },
-    component: () => import('../views/Qanswers.vue')
+    component: Qanswers
   },
   {
     path: '/about',
@@ -26,7 +31,7 @@ const routes = [
     meta: {
       reload: true
     },
-    component: () => import('../views/About.vue')
+    component: About
   },
   {
     path: '/contact',
@@ -34,7 +39,7 @@ const routes = [
     meta: {
       reload: true
     },
-    component: () => import('../views/Contacts.vue')
+    component: Contacts
   },
   {
     path: '/offer',
@@ -42,15 +47,15 @@ const routes = [
     meta: {
       reload: true
     },
-    component: () => import('../views/Offer.vue')
+    component: Offer
   },
   {
     path: '/polit',
-    name: SecurityPolicyViolationEvent,
+    name: 'polit',
     meta: {
       reload: true
     },
-    component: () => import('../views/Polit.vue')
+    component: Polit
   }
 ]
 

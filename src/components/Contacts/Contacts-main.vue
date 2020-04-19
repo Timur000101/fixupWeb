@@ -5,7 +5,8 @@
     </div>
     <div class="contacts__main">
       <div class="write-us">
-        <img src="@/assets/ContactsPage/mail.png" alt="" class="write-us__image">
+        <!-- <img src="../../assets/ContactsPage/mail.png" alt="" class="write-us__image"> -->
+        <email-outline-icon class="img" :size="60"/>
         <div class="write-us__info">
           <div class="write-us__info__item">
             <p class="write-item__title">Сотрудничество и реклама</p>
@@ -22,7 +23,8 @@
         </div>
       </div>
       <div class="call-us">
-        <img src="@/assets/ContactsPage/phone.png" alt="" class="call-us__image">
+        <!-- <img src="../../assets/ContactsPage/phone.png" alt="" class="call-us__image"> -->
+        <phone-icon class="img" :size="60"/>
         <div class="call-us__info">
           <div class="call-us__info__item">
             <p class="call-item__title">Казахстан</p>
@@ -31,11 +33,12 @@
         </div>
       </div>
       <div class="social-us">
-        <img src="@/assets/ContactsPage/account.png" alt="" class="">
+        <!-- <img src="../../assets/ContactsPage/account.png" alt="" class=""> -->
+        <account-icon class="img" :size="60"/>
         <div class="social-us__info">
-          <i class="fab fa-instagram instagram"></i>
-          <i class="fab fa-facebook facebook"></i>
-          <i class="fab fa-telegram telegram"></i>
+          <telegram-icon class="telegram" :size="40"/>
+          <whatsapp-icon class="whatsapp" :size="40"/>
+          <instagram-icon class="instagram" :size="40"/>
         </div>
       </div>
     </div>
@@ -80,9 +83,7 @@ export default {
         flex-direction: column
         align-items: center
         height: 200px
-        img 
-          width: 50px
-          height: 50px
+        .img 
           margin-bottom: 20px
         &__info
           display: flex
@@ -107,9 +108,7 @@ export default {
         flex-direction: column
         align-items: center
         height: 200px
-        img
-          width: 50px
-          height: 45px
+        .img
           margin-bottom: 20px
         &__info
           display: flex
@@ -133,25 +132,26 @@ export default {
         flex-direction: column
         align-items: center
         height: 200px
-        img
-          width: 45px
-          height: 45px
+        .img
           margin-bottom: 20px
         &__info
           .instagram
             width: 35px
             height: 35px
             color: #F15E63
-            margin-right: 10px
-          .facebook
+            cursor: pointer
+          .whatsapp 
             width: 35px
             height: 35px
             color: #F15E63
             margin-right: 10px
+            cursor: pointer
           .telegram
             width: 35px
             height: 35px
             color: #F15E63
+            margin-right: 10px
+            cursor: pointer
   @media (max-width: 1150px)
     .contacts__main
       width: 60%

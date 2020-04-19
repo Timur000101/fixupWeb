@@ -52,13 +52,13 @@
         <div class="download-buttons">
           <div class="android-button">
             <a href="#">
-              <img src="@/assets/os/android.png" alt="">
+              <img src="../../assets/os/android.png" alt="">
               <p>Скачать сейчас</p>
             </a>
           </div>
           <div class="ios-button">
             <a href="#">
-              <img src="@/assets/os/apple-logo-red.png" alt="">
+              <img src="../../assets/os/apple-logo-red.png" alt="">
               <p>Скачать сейчас</p>
             </a>
           </div>

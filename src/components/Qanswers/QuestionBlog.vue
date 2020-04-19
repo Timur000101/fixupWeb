@@ -9,7 +9,7 @@
           <a class="question-title" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
             Что такое рейтинг пассажира?
           </a>
-          <i class="fas fa-plus plus"></i>
+          <plus-icon class="plus" :size="25"/>
         </div>
         <div class="collapse"  v-if="show">
           Рейтинг пассажира формируется автоматически на основе его истории заказов, 
@@ -21,7 +21,7 @@
           <a class="question-title" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
             Как устанавливать цену, если я не ездил по этому маршруту?
           </a>
-          <i class="fas fa-plus plus"></i>
+          <plus-icon class="plus" :size="25"/>
         </div>
         <div class="collapse"  v-if="show1">
           Оплатить поездку можно наличными или с помощью онлайн-перевода, предварительно указав этот 
@@ -80,6 +80,7 @@ export default {
           margin-right: 20px
         .plus
           color: #F15E63
+          cursor: pointer
       .collapse
         display: flex
         justify-content: center
