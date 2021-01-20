@@ -16,7 +16,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "animated-number-vue": "^1.0.0",
-    "gsap": "^3.2.6",
+    "gsap": "^3.6.0",
     "vue": "^2.5.11",
     "vue-fixed-header": "^3.2.14",
     "vue-material-design-icons": "^4.6.0"
